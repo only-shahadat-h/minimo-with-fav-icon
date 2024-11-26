@@ -1,0 +1,226 @@
+/* comnon css start */
+body{
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #626262;
+}
+/* common css end */
+/* header start */
+header{
+	padding: 30px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+    float: left;
+    margin-top: 12px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 47%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin-right: 60px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .33s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid;
+}
+/* header end */
+/* banner start */
+.banner{
+	padding: 40px 0 100px;
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/* banner end */
+/* blog start */
+.blog{
+	padding: 100px 0 60px;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+}
+.b_content{}
+.c_light{
+	margin: 0;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	color: #888888;
+	text-transform: uppercase;
+}
+.c_title{
+	font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0 15px;
+
+}
+.c_p{
+	line-height: 24px;
+	margin: 0;
+}
+.c_link{
+	margin-top: 35px;
+	display: inline-block;
+	text-decoration: none;
+	color: #888888;
+
+}
+/* blog end */
+/* lifestyle start */
+.lifestyle{
+	padding: 100px 0 100px;
+	box-sizing: border-box;
+}
+.l_content{
+	overflow: hidden;
+}
+.single_1{
+	width: 47%;
+    float: left;
+    margin-bottom: 60px;
+}
+.single_1:nth-child(odd){
+	margin-right: 6%;
+}
+.l_img{
+	margin-bottom: 30px;
+}
+.l_img img{
+	width: 100%;
+}
+/* lifestyle end */
+/* subscribe start */
+.subscribe{
+	padding: 100px 0 100px;
+	background: #f0f0f0;
+}
+.s_content{
+	text-align: center;
+}
+.s_h{
+	color: #333333;
+	margin-bottom: 60px;
+}
+.s_form{
+	width: 400px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.s_form input{
+	border: none;
+    border-bottom: 1px solid #333333;
+    background: transparent;
+    width: 310px;
+    padding: 10px 50px 10px 10px;
+    font-size: 18px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	border: none;
+    background: transparent;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/* subscribe end */
+/* lifestyle2 start */
+.load{
+	text-align: center;
+	padding: 100px 0;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	font-size: 20px;
+	background: transparent;
+	border: 1px solid #626262;
+	color: #626262;
+	cursor: pointer;
+	transition: .33s;
+}
+.load button:hover{
+	background: #626262;
+	color: #ffffff;
+}
+/* lifestyle2 end */
+/* footer start */
+footer{
+	background: #f0f0f0;
+    padding: 20px 0;
+}
+.term{
+	width: 21%;
+    float: left;
+}
+.term ul{
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+}
+.term ul li{
+	float: left;
+}
+.term ul li a{
+	margin-left: 20px;
+	margin-top: 0;
+
+}
+.social{
+	width: 13%;
+    float: right;
+}
+.social span{
+	margin-top: 20px;
+    display: inline-block;
+}
+.social ul{
+	list-style: none;
+    float: right;
+    padding: 0;
+    margin-top: 22px;
+}
+.social ul li{
+	float: left;
+}
+.social ul li a{
+	margin-right: 20px;
+	display: inline-block;
+}
+/* footer end */
